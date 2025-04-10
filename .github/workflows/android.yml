@@ -21,8 +21,7 @@ jobs:
         java-version: 11
 
     - name: Setup Android SDK
-      uses: android-actions/setup-android@v2
-      # Add this to update the environment using the new method
+      uses: android-actions/setup-android@v1
       id: android-sdk
 
     - name: Add Android SDK to PATH
